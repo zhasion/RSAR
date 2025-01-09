@@ -82,7 +82,7 @@ pip install -v -e .
 
 ### 2. Dataset Prepare
 
-Download the `RSAR` dataset from the ![dataset](https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white) and extract the files to `$DATAROOT`. The directory structure should look like:
+Download the `RSAR` dataset from the [![dataset](https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1FPmW-5BXFmLFxM56oOGOtA?pwd=rsar) and extract the files to `$DATAROOT`. The directory structure should look like:
 
 ```
 $DATAROOT
@@ -137,7 +137,7 @@ python tools/model_converters/publish_model.py [your_model.pth] [your_new_model.
 
 The weakly supervised model is based on H2RBox-v2 with our `UCR`. All Models utilize ResNet50 as the backbone and trained on **one GPU**. (`pwd:rsar`)
 
-|  Dataset  | DM$^*$ | mAP  | Angle  | lr schd |  BS  | Config |      Download       |
+|  Dataset  | DM<sup>*</sup> | mAP  | Angle  | lr schd |  BS  | Config |      Download       |
 | :-------: | :----: | :--: | :----: | :-----: | :--: | :----: | :-----------------: |
 | DOTA-v1.0 |   2    | 42.65 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_2d.py) | [ckpt](https://pan.baidu.com/s/1o_HsD1n3ImqpZYhRdAriow?pwd=rsar) \| [log](https://pan.baidu.com/s/1o_HsD1n3ImqpZYhRdAriow?pwd=rsar) |
 | DOTA-v1.0 |   3    | 43.10 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_3d.py) | [ckpt](https://pan.baidu.com/s/1LHXrQWc_lT_HCJ9v-MjU1A?pwd=rsar) \| [log](https://pan.baidu.com/s/1LHXrQWc_lT_HCJ9v-MjU1A?pwd=rsar) |
@@ -159,15 +159,15 @@ Various detectors trained on `RSAR`. All models are trained on **4 GPUs**. (`pwd
 |      Backbone      |        Model        |  mAP  | Angle  |  lr schd  |  BS  | Config | Download |
 | :----------------: | :-----------------: | :---: | :----: | :-------: | :--: | :----: | :---------------: |
 | ResNet50 (800,800) |  Rotated-RetinaNet  | 27.65 | `le90` |   `1x`    |  2   | [config](configs/rotated_retinanet/rotated-retinanet-rbox-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1alNDe14FcczLdlwUeHir5w?pwd=rsar) \| [log](https://pan.baidu.com/s/1alNDe14FcczLdlwUeHir5w?pwd=rsar) |
-| ResNet50 (800,800) |      R$^3$Det       | 30.50 | `le90` |   `1x`    |  2   | [config](configs/r3det/r3det-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) \| [log](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) |
-| ResNet50 (800,800) |      S$^2$ANet      | 33.11 | `le90` |   `1x`    |  2   | [config](configs/s2anet/s2anet-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) \| [log](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) |
+| ResNet50 (800,800) |      R3Det       | 30.50 | `le90` |   `1x`    |  2   | [config](configs/r3det/r3det-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) \| [log](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) |
+| ResNet50 (800,800) |      S2ANet      | 33.11 | `le90` |   `1x`    |  2   | [config](configs/s2anet/s2anet-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) \| [log](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) |
 | ResNet50 (800,800) |    Rotated-FCOS     | 34.22 | `le90` |   `1x`    |  2   | [config](configs/rotated_fcos/rotated-fcos-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1Kj1XJso6V0MeYHgvt8QKWA?pwd=rsar) \| [log](https://pan.baidu.com/s/1Kj1XJso6V0MeYHgvt8QKWA?pwd=rsar) |
 | ResNet50 (800,800) | Rotated-Faster RCNN | 30.46 | `le90` |   `1x`    |  2   | [config](configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1hOw6p5a49_L8TVtPy-Lljw?pwd=rsar) \| [log](https://pan.baidu.com/s/1hOw6p5a49_L8TVtPy-Lljw?pwd=rsar) |
 | ResNet50 (800,800) |       O-RCNN        | 33.62 | `le90` |   `1x`    |  2   | [config](configs/oriented_rcnn/oriented-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1t0GQbAP770wvftETNyfipA?pwd=rsar) \| [log](https://pan.baidu.com/s/1t0GQbAP770wvftETNyfipA?pwd=rsar) |
 | ReResNet50 (800,800) |        ReDet        | 34.30 | `le90` |   `1x`    |  2   | [config](configs/redet/redet-le90_re50_refpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1kSdPzYFS0WuGO6jKuOdekg?pwd=rsar) \| [log](https://pan.baidu.com/s/1kSdPzYFS0WuGO6jKuOdekg?pwd=rsar) |
 | ResNet50 (800,800) |   RoI-Transformer   | 35.02 | `le90` |   `1x`    |  2   | [config](configs/roi_trans/roi-trans-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/13fLoBcoZcPUsu4nLFNIopQ?pwd=rsar) \| [log](https://pan.baidu.com/s/13fLoBcoZcPUsu4nLFNIopQ?pwd=rsar) |
-| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x` $^*$ |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) |
-| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x` $^*$ |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) |
+| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) |
+| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) |
 
 \* denotes a special setting in the official repo (e.g. trained 36 epochs in practice), details see [STAR-MMRotate](https://github.com/yangxue0827/STAR-MMRotate).
 

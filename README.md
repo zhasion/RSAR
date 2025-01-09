@@ -22,7 +22,7 @@
 
 ## ⭐️Highlights
 
-![highlight](docs\highlight.png)
+![highlight](docs/highlight.png)
 
 
 
@@ -39,7 +39,7 @@
 
 ## ⚡RSAR Dataset
 
-![RSAR_vis](docs\RSAR_vis.png)
+![RSAR_vis](docs/RSAR_vis.png)
 
 This dataset contains `95,842` images, including `78,837` in the training set, `8,467` in the validation set, and `8,538` in the test set. Instance statistics for each category are shown in the table below
 
@@ -55,7 +55,7 @@ This dataset contains `95,842` images, including `78,837` in the training set, `
 
 The following figure provides a statistical analysis of the annotated instances for each category in the RSAR dataset
 
-![RSAR_sta](docs\RSAR_sta.png)
+![RSAR_sta](docs/RSAR_sta.png)
 
 
 

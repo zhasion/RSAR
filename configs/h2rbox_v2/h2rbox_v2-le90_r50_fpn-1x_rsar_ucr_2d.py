@@ -96,7 +96,8 @@ train_pipeline = [
     dict(type='ConvertBoxType', box_type_mapping=dict(gt_bboxes='hbox')),
     # Horizontal GTBox, (x,y,w,h,theta)
     dict(type='ConvertBoxType', box_type_mapping=dict(gt_bboxes='rbox')),
-    dict(type='mmdet.Resize', scale=(1024, 1024), keep_ratio=True),
+    dict(type='mmdet.Resize', scale=(800, 800), keep_ratio=True),
+    dict(type='mmdet.Pad', size=(800, 800), pad_val=dict(img=(0, 0, 0))), 
     dict(
         type='mmdet.RandomFlip',
         prob=0.75,

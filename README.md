@@ -136,16 +136,16 @@ python tools/model_converters/publish_model.py [your_model.pth] [your_new_model.
 
 ### 1. Weakly supervised Model 
 
-The weakly supervised model is based on H2RBox-v2 with our `UCR`. All Models utilize ResNet50 as the backbone and trained on **one GPU**. (`pwd:rsar`)
+The weakly supervised model is based on H2RBox-v2 with our `UCR`. All Models utilize ResNet50 as the backbone and trained on **one GPU**. 
 
 |  Dataset  | DM<sup>*</sup> | mAP  | Angle  | lr schd |  BS  | Config |      Download       |
 | :-------: | :----: | :--: | :----: | :-----: | :--: | :----: | :-----------------: |
-| DOTA-v1.0 |   2    | 42.65 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_2d.py) | [ckpt](https://pan.baidu.com/s/1o_HsD1n3ImqpZYhRdAriow?pwd=rsar) \| [log](https://pan.baidu.com/s/1o_HsD1n3ImqpZYhRdAriow?pwd=rsar) |
-| DOTA-v1.0 |   3    | 43.10 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_3d.py) | [ckpt](https://pan.baidu.com/s/1LHXrQWc_lT_HCJ9v-MjU1A?pwd=rsar) \| [log](https://pan.baidu.com/s/1LHXrQWc_lT_HCJ9v-MjU1A?pwd=rsar) |
-|   HRSC    |   2    | 60.00 | `le90` |  `6x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-6x_hrsc_ucr_2d.py) | [ckpt](https://pan.baidu.com/s/15tOktAuzzoIv-UtpVTChpg?pwd=rsar) \| [log](https://pan.baidu.com/s/15tOktAuzzoIv-UtpVTChpg?pwd=rsar) |
-|   HRSC    |   3    | 61.74 | `le90` |  `6x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-6x_hrsc_ucr_3d.py) | [ckpt](https://pan.baidu.com/s/1jhDXfxUCGmFpWl_lmxEhBQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1jhDXfxUCGmFpWl_lmxEhBQ?pwd=rsar) |
-|   RSAR    |   2    | 32.25 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_rsar_ucr_2d.py) | [ckpt](https://pan.baidu.com/s/10urbv7tyq5jVROCZe5yrSg?pwd=rsar) \| [log](https://pan.baidu.com/s/10urbv7tyq5jVROCZe5yrSg?pwd=rsar) |
-|   RSAR    |   3    | 32.64 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_rsar_ucr_3d.py) | [ckpt](https://pan.baidu.com/s/1guouVioQnfVKutJcQtSJBw?pwd=rsar) \| [log](https://pan.baidu.com/s/1guouVioQnfVKutJcQtSJBw?pwd=rsar) |
+| DOTA-v1.0 |   2    | 42.65 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_2d.py) | [ckpt](https://drive.google.com/file/d/1BWugNU-u3FezBdpTem5CYGT3TmIF1mvG/view?usp=drive_link) \| [log](https://drive.google.com/file/d/1X9b0J6Jfx680tWR8S-q40v5W_aiMXqqH/view?usp=drive_link) |
+| DOTA-v1.0 |   3    | 43.10 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_dota_ucr_3d.py) | [ckpt](https://drive.google.com/file/d/1U7Ug5669i3nGwrdtogNpmxu-jqIPLYED/view?usp=sharing) \| [log](https://drive.google.com/file/d/1nqY_oFpm3paEhHwuvBeK2_LxYVh66rWv/view?usp=sharing) |
+|   HRSC    |   2    | 60.00 | `le90` |  `6x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-6x_hrsc_ucr_2d.py) | [ckpt](https://drive.google.com/file/d/1BESCnaTpAKyYnzzkrfu_xzzeljWrOxSE/view?usp=sharing) \| [log](https://drive.google.com/file/d/1zKmVHm9gi6vm3rEUf049QBhQ0Jl5GX0L/view?usp=sharing) |
+|   HRSC    |   3    | 61.74 | `le90` |  `6x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-6x_hrsc_ucr_3d.py) | [ckpt](https://drive.google.com/file/d/12BSgPDhhwDlY_YhkhsE78U7kAb_0ySTx/view?usp=sharing) \| [log](https://drive.google.com/file/d/1VOBRPt_oifytxphwqayTKU5OwUECt3FB/view?usp=sharing) |
+|   RSAR    |   2    | 32.25 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_rsar_ucr_2d.py) | [ckpt](https://drive.google.com/file/d/1uNadAws7VtxMIRd348_B32KFpzsTmtfw/view?usp=sharing) \| [log](https://drive.google.com/file/d/1_jQGVJi06nHFmcjhJmvJ9uQSXlwMkcGA/view?usp=sharing) |
+|   RSAR    |   3    | 32.64 | `le90` |  `1x`   |  2   | [config](configs/h2rbox_v2/h2rbox_v2-le90_r50_fpn-1x_rsar_ucr_3d.py) | [ckpt](https://drive.google.com/file/d/1xnBuCBbe5s2apKhf-Ptec5mXojDA49Pc/view?usp=sharing) \| [log](https://drive.google.com/file/d/1P6fkGpjGgr-Adq1sHbyJcLXKdrb3Rwkl/view?usp=sharing) |
 
 \* denotes the dimension of mapping in `UCR`. 
 
@@ -155,20 +155,20 @@ The weakly supervised model is based on H2RBox-v2 with our `UCR`. All Models uti
 
 ### 2. Fully supervised Model (base on RSAR)
 
-Various detectors trained on `RSAR`. All models are trained on **4 GPUs**. (`pwd:rsar`)
+Various detectors trained on `RSAR`. All models are trained on **4 GPUs**. 
 
 |      Backbone      |        Model        |  mAP  | Angle  |  lr schd  |  BS  | Config | Download |
 | :----------------: | :-----------------: | :---: | :----: | :-------: | :--: | :----: | :---------------: |
-| ResNet50 (800,800) |  Rotated-RetinaNet  | 27.65 | `le90` |   `1x`    |  2   | [config](configs/rotated_retinanet/rotated-retinanet-rbox-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1alNDe14FcczLdlwUeHir5w?pwd=rsar) \| [log](https://pan.baidu.com/s/1alNDe14FcczLdlwUeHir5w?pwd=rsar) |
-| ResNet50 (800,800) |      R3Det       | 30.50 | `le90` |   `1x`    |  2   | [config](configs/r3det/r3det-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) \| [log](https://pan.baidu.com/s/1zVbLq6YQsQoh8hIz8uGC0w?pwd=rsar) |
-| ResNet50 (800,800) |      S2ANet      | 33.11 | `le90` |   `1x`    |  2   | [config](configs/s2anet/s2anet-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) \| [log](https://pan.baidu.com/s/1ZEmJ6ISQy7GEzrtKx5Pyeg?pwd=rsar) |
-| ResNet50 (800,800) |    Rotated-FCOS     | 34.22 | `le90` |   `1x`    |  2   | [config](configs/rotated_fcos/rotated-fcos-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1Kj1XJso6V0MeYHgvt8QKWA?pwd=rsar) \| [log](https://pan.baidu.com/s/1Kj1XJso6V0MeYHgvt8QKWA?pwd=rsar) |
-| ResNet50 (800,800) | Rotated-Faster RCNN | 30.46 | `le90` |   `1x`    |  2   | [config](configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1hOw6p5a49_L8TVtPy-Lljw?pwd=rsar) \| [log](https://pan.baidu.com/s/1hOw6p5a49_L8TVtPy-Lljw?pwd=rsar) |
-| ResNet50 (800,800) |       O-RCNN        | 33.62 | `le90` |   `1x`    |  2   | [config](configs/oriented_rcnn/oriented-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1t0GQbAP770wvftETNyfipA?pwd=rsar) \| [log](https://pan.baidu.com/s/1t0GQbAP770wvftETNyfipA?pwd=rsar) |
-| ReResNet50 (800,800) |        ReDet        | 34.30 | `le90` |   `1x`    |  2   | [config](configs/redet/redet-le90_re50_refpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/1kSdPzYFS0WuGO6jKuOdekg?pwd=rsar) \| [log](https://pan.baidu.com/s/1kSdPzYFS0WuGO6jKuOdekg?pwd=rsar) |
-| ResNet50 (800,800) |   RoI-Transformer   | 35.02 | `le90` |   `1x`    |  2   | [config](configs/roi_trans/roi-trans-le90_r50_fpn_1x_rsar.py) | [ckpt](https://pan.baidu.com/s/13fLoBcoZcPUsu4nLFNIopQ?pwd=rsar) \| [log](https://pan.baidu.com/s/13fLoBcoZcPUsu4nLFNIopQ?pwd=rsar) |
-| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1aQi0xQpE3zkXUfyknPcoQQ?pwd=rsar) |
-| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) \| [log](https://pan.baidu.com/s/1fN0rXrWB7fhnIIapslsLRQ?pwd=rsar) |
+| ResNet50 (800,800) |  Rotated-RetinaNet  | 27.65 | `le90` |   `1x`    |  2   | [config](configs/rotated_retinanet/rotated-retinanet-rbox-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1rL7oAZQPpYuiiGow63uj5Ej4CJuzOv1d/view?usp=sharing) \| [log](https://drive.google.com/file/d/1yWA7Mlum_4b6KqDc7NX4yiGqqE8uDxFY/view?usp=sharing) |
+| ResNet50 (800,800) |      R3Det       | 30.50 | `le90` |   `1x`    |  2   | [config](configs/r3det/r3det-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/17oGLjtdOg6tlpqcA7Li1-BArBpAPeJ_9/view?usp=sharing) \| [log](https://drive.google.com/file/d/10cgIxVkq-KsrmUVyq0bDrQLxUWxp8_NO/view?usp=sharing) |
+| ResNet50 (800,800) |      S2ANet      | 33.11 | `le90` |   `1x`    |  2   | [config](configs/s2anet/s2anet-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1xju1PGARP8h767Xr0yNpxNlan8E8hezJ/view?usp=sharing) \| [log](https://drive.google.com/file/d/1Nr8QkDlrMmT7rJNlFIDfSDksZoAcRBX2/view?usp=sharing) |
+| ResNet50 (800,800) |    Rotated-FCOS     | 34.22 | `le90` |   `1x`    |  2   | [config](configs/rotated_fcos/rotated-fcos-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/13yswgvxNclZboOVy2x5pf7zdBWn5Q3yA/view?usp=sharing) \| [log](https://drive.google.com/file/d/1Q53FL9WVWRxNuQ6_VqxvohHHVpZMmHxE/view?usp=sharing) |
+| ResNet50 (800,800) | Rotated-Faster RCNN | 30.46 | `le90` |   `1x`    |  2   | [config](configs/rotated_faster_rcnn/rotated-faster-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1ynmuD1Szq5KnOWlX86a-SBIe09yiXcbj/view?usp=sharing) \| [log](https://drive.google.com/file/d/1TxsS-pavIb8MDLxSRPpcGwV3WwSGxfeq/view?usp=sharing) |
+| ResNet50 (800,800) |       O-RCNN        | 33.62 | `le90` |   `1x`    |  2   | [config](configs/oriented_rcnn/oriented-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1xSUr6QOj8nyoQSmO2pmIqgvZEofwcQ7u/view?usp=sharing) \| [log](https://drive.google.com/file/d/1V3JroJK0B1_R1n2HguxBxYLvDkRKQCMV/view?usp=sharing) |
+| ReResNet50 (800,800) |        ReDet        | 34.30 | `le90` |   `1x`    |  2   | [config](configs/redet/redet-le90_re50_refpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/15z4WVeq4ChYoRXwvh_Nry4Ok9ozxytvB/view?usp=sharing) \| [log](https://drive.google.com/file/d/1P73YiWGWsPNSgu06kDqyB0cuW8nOe6oT/view?usp=sharing) |
+| ResNet50 (800,800) |   RoI-Transformer   | 35.02 | `le90` |   `1x`    |  2   | [config](configs/roi_trans/roi-trans-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1hmjnirDacJSqhTKolpKcnDeJxE5agU4U/view?usp=sharing) \| [log](https://drive.google.com/file/d/1NP-9wXuZVJymnpr_wmvRTQEyUpUPY9pM/view?usp=sharing) |
+| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://drive.google.com/file/d/10utd41U9R1UQAV1n4tJRkuNKRVDsjvPu/view?usp=sharing) \| [log](https://drive.google.com/file/d/1W5RWubZZNRwOEFcxw5bkfiq26Luxmf4R/view?usp=sharing) |
+| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://drive.google.com/file/d/1wKJZXn9Qb7RFN-B9pXQ_Jrx31_VGW4wd/view?usp=sharing) \| [log](https://drive.google.com/file/d/1NwJBLcnBCrRQupIbk9ixGtfhUPwb9EwL/view?usp=sharing) |
 
 \* denotes a special setting in the official repo (e.g. trained 36 epochs in practice), details see [STAR-MMRotate](https://github.com/yangxue0827/STAR-MMRotate).
 

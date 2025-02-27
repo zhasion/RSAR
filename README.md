@@ -7,6 +7,7 @@
       <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN&oi=ao' style='text-decoration: none' >Jian Yang</a><sup></sup>&emsp;      
       <a href='https://mmcheng.net/cmm/' style='text-decoration: none' >Ming-Ming Cheng</a><sup></sup>&emsp;     
       <a href='https://implus.github.io/' style='text-decoration: none' >Xiang Li</a><sup>*</sup>&emsp;
+      <h3 align='center'>CVPR 2025</h3>
       <div align="center">
       <a href='https://arxiv.org/abs/2501.04440'><img src='https://img.shields.io/badge/arXiv-2501.04440-brown.svg?logo=arxiv&logoColor=white'></a>
       <a href='https://github.com/zhasion/RSAR'><img src='https://img.shields.io/badge/Github-page-yellow.svg?logo=Github&logoColor=white'></a>
@@ -24,7 +25,6 @@
 ## ⭐️Highlights
 
 ![highlight](docs/highlight.png)
-
 
 
 ## 📋Introduction

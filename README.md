@@ -42,7 +42,7 @@
 
 ![RSAR_vis](docs/RSAR_vis.png)
 
-This dataset contains `95,842` images, including `78,837` in the training set, `8,467` in the validation set, and `8,538` in the test set. Instance statistics for each category are shown in the table below
+This dataset is build on [SARDet-100K](https://github.com/zcablii/SARDet_100K) and it contains `95,842` images, including `78,837` in the training set, `8,467` in the validation set, and `8,538` in the test set. Instance statistics for each category are shown in the table below
 
 |   Catagory    | Train ins. | Val ins. | Test ins. |
 | :-----------: | :--------: | :------: | :-------: |

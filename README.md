@@ -44,7 +44,7 @@
 
 This dataset is build on [SARDet-100K](https://github.com/zcablii/SARDet_100K) and it contains `95,842` images, including `78,837` in the training set, `8,467` in the validation set, and `8,538` in the test set. Instance statistics for each category are shown in the table below
 
-|   Catagory    | Train ins. | Val ins. | Test ins. |
+|   Category    | Train ins. | Val ins. | Test ins. |
 | :-----------: | :--------: | :------: | :-------: |
 |   Ship (SH)   |   92,950   |  10,492  |  10,700   |
 | Aircraft (AI) |   6,880    |   449    |    494    |

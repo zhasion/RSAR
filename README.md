@@ -167,10 +167,10 @@ Various detectors trained on `RSAR`. All models are trained on **4 GPUs**.
 | ResNet50 (800,800) |       O-RCNN        | 33.62 | `le90` |   `1x`    |  2   | [config](configs/oriented_rcnn/oriented-rcnn-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1xSUr6QOj8nyoQSmO2pmIqgvZEofwcQ7u/view?usp=sharing) \| [log](https://drive.google.com/file/d/1V3JroJK0B1_R1n2HguxBxYLvDkRKQCMV/view?usp=sharing) |
 | ReResNet50 (800,800) |        ReDet        | 34.30 | `le90` |   `1x`    |  2   | [config](configs/redet/redet-le90_re50_refpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/15z4WVeq4ChYoRXwvh_Nry4Ok9ozxytvB/view?usp=sharing) \| [log](https://drive.google.com/file/d/1P73YiWGWsPNSgu06kDqyB0cuW8nOe6oT/view?usp=sharing) |
 | ResNet50 (800,800) |   RoI-Transformer   | 35.02 | `le90` |   `1x`    |  2   | [config](configs/roi_trans/roi-trans-le90_r50_fpn_1x_rsar.py) | [ckpt](https://drive.google.com/file/d/1hmjnirDacJSqhTKolpKcnDeJxE5agU4U/view?usp=sharing) \| [log](https://drive.google.com/file/d/1NP-9wXuZVJymnpr_wmvRTQEyUpUPY9pM/view?usp=sharing) |
-| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://drive.google.com/file/d/10utd41U9R1UQAV1n4tJRkuNKRVDsjvPu/view?usp=sharing) \| [log](https://drive.google.com/file/d/1W5RWubZZNRwOEFcxw5bkfiq26Luxmf4R/view?usp=sharing) |
-| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x`<sup>*</sup> |  2   | [config]() | [ckpt](https://drive.google.com/file/d/1wKJZXn9Qb7RFN-B9pXQ_Jrx31_VGW4wd/view?usp=sharing) \| [log](https://drive.google.com/file/d/1NwJBLcnBCrRQupIbk9ixGtfhUPwb9EwL/view?usp=sharing) |
+| ResNet50 (800,800) |   Deformable DETR   | 19.63 | `le90` | `1x`<sup>*</sup> |  2   | [config](configs/star/deformable_detr_r50_rsar.py) | [ckpt](https://drive.google.com/file/d/10utd41U9R1UQAV1n4tJRkuNKRVDsjvPu/view?usp=sharing) \| [log](https://drive.google.com/file/d/1W5RWubZZNRwOEFcxw5bkfiq26Luxmf4R/view?usp=sharing) |
+| ResNet50 (800,800) |      ARS-DETR       | 31.56 | `le90` | `1x`<sup>*</sup> |  2   | [config](configs/star/arcsl_detr_r50_rsar.py) | [ckpt](https://drive.google.com/file/d/1wKJZXn9Qb7RFN-B9pXQ_Jrx31_VGW4wd/view?usp=sharing) \| [log](https://drive.google.com/file/d/1NwJBLcnBCrRQupIbk9ixGtfhUPwb9EwL/view?usp=sharing) |
 
-\* denotes a special setting in the official repo (e.g. trained 36 epochs in practice), details see [STAR-MMRotate](https://github.com/yangxue0827/STAR-MMRotate).
+\* denotes a special setting in the official repo (e.g. trained 36 epochs in practice), details see [STAR-MMRotate](https://github.com/yangxue0827/STAR-MMRotate). If you need to reproduce this experiment, please refer to [README.md](configs/star/README.md).
 
 
 

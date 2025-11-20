@@ -11,8 +11,8 @@
       <div align="center">
       <a href='https://arxiv.org/abs/2501.04440'><img src='https://img.shields.io/badge/arXiv-2501.04440-brown.svg?logo=arxiv&logoColor=white'></a>
       <a href='https://github.com/zhasion/RSAR'><img src='https://img.shields.io/badge/Github-page-yellow.svg?logo=Github&logoColor=white'></a>
-      <a href='https://drive.google.com/file/d/127itsjDxM24P-AkiOx6JGD9UXgbCirW4/view?usp=sharing'><img src='https://img.shields.io/badge/GoogleDrive-dataset-blue.svg?logo=GoogleDrive&logoColor=white'></a>
-      <a href='https://pan.baidu.com/s/1DVUNBuWrhJRg0H1qhwtfEQ?pwd=rsar'><img src='https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white'></a>
+      <a href='https://drive.google.com/file/d/1v-HXUSmwBQCtrq0MlTOkCaBQ_vbz5_qs/view?usp=sharing'><img src='https://img.shields.io/badge/GoogleDrive-dataset-blue.svg?logo=GoogleDrive&logoColor=white'></a>
+      <a href='https://pan.baidu.com/s/1g2NGfzf7Xgk_K9euKVjFEA?pwd=rsar'><img src='https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white'></a>
       <a href='https://zhuanlan.zhihu.com/p/16758735545'><img src='https://img.shields.io/badge/Zhihu-chinese_article-blue.svg?logo=zhihu&logoColor=white'></a>
 	  </div>
     <p align='center'>
@@ -83,7 +83,7 @@ pip install -v -e .
 
 ### 2. Dataset Prepare
 
-Download the `RSAR` dataset from the[![dataset](https://img.shields.io/badge/GoogleDrive-dataset-blue.svg?logo=GoogleDrive&logoColor=white)](https://drive.google.com/file/d/127itsjDxM24P-AkiOx6JGD9UXgbCirW4/view?usp=sharing) or [![dataset](https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1DVUNBuWrhJRg0H1qhwtfEQ?pwd=rsar) and extract the files to `$DATAROOT`. The directory structure should look like:
+Download the `RSAR` dataset from the[![dataset](https://img.shields.io/badge/GoogleDrive-dataset-blue.svg?logo=GoogleDrive&logoColor=white)](https://drive.google.com/file/d/1v-HXUSmwBQCtrq0MlTOkCaBQ_vbz5_qs/view?usp=sharing) or [![dataset](https://img.shields.io/badge/BaiduNetdisk-dataset-blue.svg?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1g2NGfzf7Xgk_K9euKVjFEA?pwd=rsar) and extract the files to `$DATAROOT`. The directory structure should look like:
 
 ```
 $DATAROOT
@@ -179,10 +179,11 @@ Various detectors trained on `RSAR`. All models are trained on **4 GPUs**.
 If you find our paper or benchmark helpful for your research, please consider citing our paper and giving this repo a star ⭐. Thank you very much!
 
 ```bibtex
-@article{zhang2025rsar,
-  title={RSAR: Restricted State Angle Resolver and Rotated SAR Benchmark},
+@inproceedings{zhang2025rsar,
+  title={Rsar: Restricted state angle resolver and rotated sar benchmark},
   author={Zhang, Xin and Yang, Xue and Li, Yuxuan and Yang, Jian and Cheng, Ming-Ming and Li, Xiang},
-  journal={arXiv preprint arXiv:2501.04440},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={7416--7426},
   year={2025}
 }
 
